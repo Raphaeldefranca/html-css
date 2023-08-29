@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>fontes em css</title>
+
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+
+            /* medidas absolutas:
+                cm,mm,in,px,pt,pc
+
+               medidas relativas:
+                em	->	relativo ao tamanho natural da fonte
+	            ex	->	relativo a altura x da fonte
+	            rem	->	tipo em, mas relativo a fonte configurada no body
+	            vw	->	relativo a largura da view port
+	            vh	->	relativo a altura da view port
+	            %	->	porcentagem 
+                
+                recomendação w3c: "px" ou "em" (em=altura relativa ao M maiúsculo)
+                    altura padrão das letras: 16px ou 1em
+                */
+
+
+
+
+
+
+            font-size: 1.2em;
+            font-weight: normal;
+            /* Peso (negrito):	
+
+		- fonte mais cheia (negrito) ou fina
+		- não serve para fontes simples (arial, verdana, times,...)
+		- serve pra fontes como Work Sans (import google)
+
+	    font-weight: nome ou número;	    
+
+        nome:	- lighter		número:	- 100   - 500   - 900
+		- normal				- 200   - 600
+		- bold				- 300   - 700
+		- bolder				- 400   - 800 */
+
+
+            font-style: italic;
+            /* para colocar normal, ou ITALICO*/
+            
+
+            text-decoration: underline;
+                /*serve para sublinhar o texto*/
+
+
+
+    /* Shorthand font: simplificando fontes.
+
+   Ex:	     font-family: 'Work Sans', sans-serif;
+	         font-weight: bolder;
+	         font-size: 3em;
+	         font-style: italic;
+
+      Simplificando:
+
+		font: italic  bolder  3em  'Work Sans', sans-serif;
+
+    -  A sequência deve ser:	
+
+		font-style   ->   font-weight   ->   font-size   ->   font-family;
+
+    - Não precisa ter todas as propriedades, mas a sequência deve ser seguida;
+        Ex:		font:  bold  2em  'Work Sans';*/
+        }
+    </style>
+</head>
+
+<body>
+    <h1>titulo 1</h1>    
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias dignissimos eos nostrum libero voluptatem iusto illum, hic a consectetur repellendus est, minus neque? Officiis id expedita eveniet, neque illum itaque.</p>
+
+    <h2>titulo 2</h2>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum tempora illum dolorem quam sapiente, exercitationem, repellendus illo sint rem aliquid rerum dolores debitis blanditiis magni? Natus dolorem voluptatibus veniam nobis.</p>
+</body>
+</html>

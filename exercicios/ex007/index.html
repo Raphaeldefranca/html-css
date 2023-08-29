@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>formatação de textos</title>
+
+    <style>
+        mark {
+            background-color: aqua;
+        }
+    </style>
+
+</head>
+<body>
+
+    <h1>como usar caracters especiais</h1>
+    <h2>negrito</h2>
+        <p>para fazer uma frase contendo um <strong>termo em negrito</strong>, deve-se usar a tag strong, por questões de semântica
+        </p>
+
+        <!-- a dica do exercício além da questão semântica, é utilizar o Ctrl + Shift + P, procurar por "Emmet: warp with abbreviation" pra gnt colocar tags nos lados de um texto, dessa forma vamos melhorar e muito o nosso tempo -->
+
+    <h2>itálico</h2>
+        <p>para utilizar fazer uma frase contendo um <em>termo em itálico</em>, deve-se usar a tag "em" por questões de semântica</p> 
+    
+    <h2>texto marcado</h2>
+    <p>podemos criar também um <mark style="background-color: rebeccapurple;">texto marcado</mark> usando a tag MARK
+    </p> <!-- podemos mudar a cor da marcação usando css dentro da tag ou uma tag css la em head para mudar todas as marcações ao mesmo tempo-->
+
+    <h2>textp grande e texto pequeno</h2>
+    <p>estamos criando um <big>texto grande</big> e um <small>texto pequeno nesse parágrafo</small></p> <!-- a tag big está obsoleta ou seja ja caiu em desuso, porém small ainda funciona pois na sua semântica faz sentido a sua existência, pois de certa formas, letras miúdas são imrportantes em contratos e etc, já grande não, se você quiser letras grandes basta formata-las no css-->
+
+    <h2> texto deletado</h2>
+        <p>podemos marcar um texto como exclúido para indicar que ele deve ser lido, mas não considerado</p>
+        <h2>texto inserido</h2>
+    <p>podemos marcar <ins>um texto como inserido</ins> para dar uma ênfase e indicar que ele foi adicionado depois ou meramente sublinhado. </p>
+    <p>existe também o <u>sublinhado</u> com a tag U (não semântica)</p>
+
+    <h2>texto sobescrito</h2>
+
+    <p>para inserir coisas do tipo x<sup>20</sup>+3 </p> <!-- aqui p texto fica em cima, o 20 ali ficou X elevado a 20 mais três-->
+
+    <h2>texto subescrito</h2>
+
+    <p>para inserir coisas do tipo H<sub>2</sub>0</p>
+    <!-- aqui o texto fica mais embaixo, usado por exemplo para formas químicas-->
+
+    
+</body>
+</html>

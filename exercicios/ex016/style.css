@@ -1,0 +1,25 @@
+@charset "UTF-8";
+
+/* para se referir a uma class em HTML = usar .
+   para se referir à um id em html = usar # 
+*/
+
+body {
+    background-image: linear-gradient(to right, #7f000099, #713792f4);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+main {
+    background-color: #939393ee;
+    width: 600px;
+    margin: auto;
+    text-align: justify;
+    padding: 20px;
+    border-radius: 15px;
+    
+    
+}
+
+#principal {
+    background-color: rgba(0, 0, 0, 0.442);
+}

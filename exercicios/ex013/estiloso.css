@@ -1,0 +1,22 @@
+@charset "UTF-8";
+/* Regra @charset caso haja problema com acentuação */
+
+body {
+    background-color: lightgoldenrodyellow; /* esse aqui é para definir a cor de fundo */  
+    font-family: Arial, Helvetica, sans-serif; /* para definir qual fonte vc vai usar */ 
+    font-size: 20px; /* tamanho da fonte*/ 
+}
+
+h1 {
+    color: darkblue;
+    background-color: lightblue;
+}
+
+h2 {
+    color: darkred;
+    text-decoration: underline; /* para sublinhar o texto*/ 
+}
+
+p {
+    text-align: justify; /* para alinhar os textos pelos seus lados*/ 
+}
